@@ -40,6 +40,19 @@
 		"subpatcher_template" : "my template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 202.0, 73.0, 35.0, 19.0 ],
+					"style" : "",
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -78,8 +91,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 469440.03125, "ticks" ],
-						"originaltempo" : 120.000008,
+						"originallength" : [ 64364.777344, "ticks" ],
+						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -154,7 +167,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1710.CMlaKA....fQPMDZ....ALkb5IC...P..............................................XfbSoETgIWXsUFckI2b.DP.VUlbyk1atAP.IP.........7+DfLI4Fb0QGHLUlckwF.ADfcgwVckAP.IP.....fyGC5+.PRtYWYxQG.ADfcgwVckAP.IP............PQtQFHFklbkAP.AXWXrUWY.DPBD............XTZrQWYxAP.AXWXrUWY.DPBD............H0azEFckAP.AXWXrUWY.DPBD............Xjbu4FcfPUZrQG.ADfcgwVckAP.IP.........3+.fTkElbfPUZrQG.ADfcgwVckAP.IP.........3+.fVu8Va.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtABSuHE.ADfcgwVckAP.IP.........3+..TuwVXxABbgQGckImafLD.ADfcgwVckAP.IP.........3+..TuwVXxABbgQGckImafvzbuH0b.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtAhTLM2KRI0b.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtAhTCAP.AXWXrUWY.DPBD.........9O.bUZjQGZfvzKRAP.AXWXrUWY.DPBD.....VUUU8O.bUZjQGZfvzbuH0b.DP.1EFa0UF.Aj.A....fiiii+C.WkFYzgFHRwzbuHkTyAP.AXWXrUWY.DPBD.........+O.vTY1UFafvzKRAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafLD.ADfcgwVckAP.IP.....fyGC5+..SkYWYrABSy8hTyAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafHESy8hTRMG.ADfcgwVckAP.IP.....fyGC5+..SkYWYrAhTCAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafvjQEAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafHjQuIWagQG.ADfcgwVckAP.IP.....fyGC5+.PS0QWYfvzKRAP.AXWXrUWY.DPBD............zTczUFHCAP.AXWXrUWY.DPBD............zTczUFHLM2KRMG.ADfcgwVckAP.IP............PS0QWYfHESy8hTRMG.ADfcgwVckAP.IP............PS0QWYfH0P.DP.1EFa0UF.Aj.A............MUGckABSFUD.ADfcgwVckAP.IP............vTuw1afvzKRAP.AXWXrUWY.DPBD............L0ar8FHCAP.AXWXrUWY.DPBD............L0ar8FHLM2KRMG.ADfcgwVckAP.IP............vTuw1afHESy8hTRMG.ADfcgwVckAP.IP............vTuw1afH0P.DP.1EFa0UF.Aj.A............S8FauABSFUD.ADfcgwVckAP.IP............PRtAWczAhQuIWagQG.ADfcgwVckAP.IP.........7+.PPxIWX4AxbkwVYiQG.ADfcgwVckAP.IP.........z+.PRtAWczARSkQWYxARL.DP.1EFa0UF.Aj.A............I4Fb0QGHMUFckIGHx.P.AXWXrUWY.DPBD............jjavUGcfzTYzUlbfLC.ADfcgwVckAP.IP............PRtAWczARSkQWYxABM.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfvD.ADfcgwVckAP.IP............vS0QGb0QGHMUFckIGHRAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAxP.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfvjQEAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxABSyAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAhTyAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAhTLMG.ADfcgwVckAP.IP............vS0QGb0QGHMUFckIGHRI0b.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfH0P.DP.1EFa0UF.Aj.A............ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇÓêˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇÓ"
+							"blob" : "1710.CMlaKA....fQPMDZ....ALkb5IC...P..............................................XfbSoETgIWXsUFckI2b.DP.VUlbyk1atAP.IP.........7+DfLI4Fb0QGHLUlckwF.ADfcgwVckAP.IP.....fyGC5+.PRtYWYxQG.ADfcgwVckAP.IP............PQtQFHFklbkAP.AXWXrUWY.DPBD............XTZrQWYxAP.AXWXrUWY.DPBD............H0azEFckAP.AXWXrUWY.DPBD............Xjbu4FcfPUZrQG.ADfcgwVckAP.IP.........3+.fTkElbfPUZrQG.ADfcgwVckAP.IP.........3+.fVu8Va.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtABSuHE.ADfcgwVckAP.IP.........3+..TuwVXxABbgQGckImafLD.ADfcgwVckAP.IP.........3+..TuwVXxABbgQGckImafvzbuH0b.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtAhTLM2KRI0b.DP.1EFa0UF.Aj.A........f+C.P8FagIGHvEFczUlbtAhTCAP.AXWXrUWY.DPBD.........9O.bUZjQGZfvzKRAP.AXWXrUWY.DPBD.....VUUU8O.bUZjQGZfvzbuH0b.DP.1EFa0UF.Aj.A....fiiii+C.WkFYzgFHRwzbuHkTyAP.AXWXrUWY.DPBD.........+O.vTY1UFafvzKRAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafLD.ADfcgwVckAP.IP.....fyGC5+..SkYWYrABSy8hTyAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafHESy8hTRMG.ADfcgwVckAP.IP.....fyGC5+..SkYWYrAhTCAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafvjQEAP.AXWXrUWY.DPBD.....37wf9O.vTY1UFafHjQuIWagQG.ADfcgwVckAP.IP.....fyGC5+.PS0QWYfvzKRAP.AXWXrUWY.DPBD............zTczUFHCAP.AXWXrUWY.DPBD............zTczUFHLM2KRMG.ADfcgwVckAP.IP............PS0QWYfHESy8hTRMG.ADfcgwVckAP.IP............PS0QWYfH0P.DP.1EFa0UF.Aj.A............MUGckABSFUD.ADfcgwVckAP.IP............vTuw1afvzKRAP.AXWXrUWY.DPBD............L0ar8FHCAP.AXWXrUWY.DPBD............L0ar8FHLM2KRMG.ADfcgwVckAP.IP............vTuw1afHESy8hTRMG.ADfcgwVckAP.IP............vTuw1afH0P.DP.1EFa0UF.Aj.A............S8FauABSFUD.ADfcgwVckAP.IP............PRtAWczAhQuIWagQG.ADfcgwVckAP.IP............PPxIWX4AxbkwVYiQG.ADfcgwVckAP.IP.........7+.PRtAWczARSkQWYxARL.DP.1EFa0UF.Aj.A............I4Fb0QGHMUFckIGHx.P.AXWXrUWY.DPBD............jjavUGcfzTYzUlbfLC.ADfcgwVckAP.IP............PRtAWczARSkQWYxABM.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfvD.ADfcgwVckAP.IP............vS0QGb0QGHMUFckIGHRAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAxP.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfvjQEAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxABSyAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAhTyAP.AXWXrUWY.DPBD............7TczAWczARSkQWYxAhTLMG.ADfcgwVckAP.IP............vS0QGb0QGHMUFckIGHRI0b.DP.1EFa0UF.Aj.A............OUGcvUGcfzTYzUlbfH0P.DP.1EFa0UF.Aj.A............"
 						}
 
 					}
@@ -404,7 +417,7 @@
 					"destination" : [ "obj-38", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 309.0, 613.5, 357.5, 613.5 ],
+					"midpoints" : [ 309.0, 618.5, 357.5, 618.5 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -414,7 +427,7 @@
 					"destination" : [ "obj-38", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 285.5, 628.5, 453.0, 628.5 ],
+					"midpoints" : [ 285.5, 627.5, 453.0, 627.5 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -506,14 +519,23 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-5" : [ "live.gain~[3]", "Input", 0 ],
-			"obj-4" : [ "live.gain~", "WXYZ", 0 ]
+			"obj-4" : [ "live.gain~", "WXYZ", 0 ],
+			"obj-5" : [ "live.gain~[3]", "Input", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -534,9 +556,9 @@
 , 			{
 				"name" : "my-ezadc",
 				"default" : 				{
-					"elementcolor" : [ 0.402827, 0.442342, 0.446734, 1.0 ],
 					"bgcolor" : [ 0.845028, 0.90521, 0.883342, 1.0 ],
-					"color" : [ 0.929433, 0.255734, 0.112485, 1.0 ]
+					"color" : [ 0.929433, 0.255734, 0.112485, 1.0 ],
+					"elementcolor" : [ 0.402827, 0.442342, 0.446734, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -545,6 +567,8 @@
 , 			{
 				"name" : "mystyle",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -555,14 +579,12 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Source Code Pro" ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.698295, 0.713548, 0.759307, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-					"fontsize" : [ 11.0 ],
 					"bgcolor" : [ 0.980553, 0.955423, 1.0, 1.0 ],
 					"color" : [ 0.088923, 0.460002, 0.589525, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.698295, 0.713548, 0.759307, 1.0 ],
+					"fontname" : [ "Source Code Pro" ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -571,6 +593,7 @@
 , 			{
 				"name" : "wm20150520a",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -581,12 +604,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Monaco" ],
-					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
