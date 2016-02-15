@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1298.0, 679.0 ],
+		"rect" : [ 34.0, 79.0, 2028.0, 1164.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "wm20150520a",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 189.666626, 843.0, 90.0, 23.0 ],
+					"presentation_rect" : [ 212.0, 855.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "speedlim 33"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -419,7 +433,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 30000.0, 9.0, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 30000.0, 4.0, 0 ],
 					"domain" : 30000.0,
 					"id" : "obj-12",
 					"maxclass" : "function",
@@ -430,7 +444,7 @@
 					"patching_rect" : [ 1328.666626, 643.0, 200.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 520.0, 245.5, 103.0 ],
-					"range" : [ 1.0, 9.0 ],
+					"range" : [ 1.0, 4.0 ],
 					"style" : ""
 				}
 
@@ -1371,7 +1385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 189.666626, 832.0, 478.0, 23.0 ],
+					"patching_rect" : [ 189.666626, 902.0, 478.0, 23.0 ],
 					"style" : "wm20150520a",
 					"text" : "imp.artnet.controller @auto 1 @unicast 1 @unicast_ip 10.7.158.185"
 				}
@@ -1620,7 +1634,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
@@ -1651,6 +1665,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1839,13 +1862,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lights.json",
-				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/DMI-F15/misc/media-lab-lights/settings",
+				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/backups/DMI-F15 201501026a/misc/media-lab-lights/settings",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mlab-lights-px.maxpat",
-				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/DMI-F15/misc/media-lab-lights/lib",
+				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/backups/DMI-F15 201501026a/misc/media-lab-lights/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1854,13 +1877,13 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "mystyle",
 				"default" : 				{
 					"fontname" : [ "Monaco" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1890,11 +1913,11 @@
 				"name" : "white monospace",
 				"default" : 				{
 					"fontname" : [ "Monaco" ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
 					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1914,11 +1937,11 @@
 				"name" : "wm20150520a",
 				"default" : 				{
 					"fontname" : [ "Monaco" ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
 					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
