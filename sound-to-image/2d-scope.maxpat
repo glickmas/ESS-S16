@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -67,7 +67,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 668.0, 83.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "<<- sounds to draw"
+					"text" : "<<- stereo sound source"
 				}
 
 			}
