@@ -6,7 +6,7 @@
 
 Adafruit_MotorShield AFMS = Adafruit_MotorShield(); 
 Adafruit_DCMotor *m1 = AFMS.getMotor(1);
-Adafruit_DCMotor *m2 = AFMS.getMotor(4);
+Adafruit_DCMotor *m2 = AFMS.getMotor(2);
 
 unsigned long timenow;
 
@@ -24,7 +24,13 @@ void setup() {
 
 }
 
-void playMotors(){
+
+
+
+void loop() {
+
+timenow = millis();
+
     if (timenow - time1 >= tick1) {
     time1 = timenow;
     m1->run(FORWARD);
@@ -34,7 +40,7 @@ void playMotors(){
 
   if (timenow - time1 >= release) {
     m1->run(RELEASE);
-    } // turn off motor1 20 ms after it went on
+    } // turn off motor after release interval
 
 
   if (timenow - time2 >= tick2) {
@@ -46,18 +52,8 @@ void playMotors(){
 
   if (timenow - time2 >= release) {
     m2->run(RELEASE);
-    } // turn off motor1 20 ms after it went on
+    } // turn off motor after release interval
 }
 
-void loop() {
 
-timenow = millis();
 
-for (release >= 20; release <= 400; release = release + 10){
-  playMotors();
-}
-for (release <= 400; release >= 20; release = release - 10){
-  playMotors();
-}
-
-}
