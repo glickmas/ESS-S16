@@ -1,4 +1,5 @@
-
+// for controlling the Adafruit Motorshield via Max or Max for Live or similar
+// by Jesse Stiles
 
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
@@ -17,14 +18,10 @@ int D1, D2, D3, D4;
 void setup() {
   Serial.begin(9600);           // set up Serial library at 9600 bps
   AFMS.begin();  // create with the default frequency 1.6KHz
-
 }
 
 
-
-
 void loop() {
-  
   
   MIDI1 = Serial.parseInt();
   MIDI2 = Serial.parseInt();
